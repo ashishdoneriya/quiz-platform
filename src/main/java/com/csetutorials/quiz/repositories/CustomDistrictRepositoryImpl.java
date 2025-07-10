@@ -7,7 +7,6 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@Repository
 public class CustomDistrictRepositoryImpl implements CustomDistrictRepository {
 
 	private static final String cql = "SELECT * FROM districts WHERE country = 'IN'";
