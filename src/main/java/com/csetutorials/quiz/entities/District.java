@@ -20,5 +20,7 @@ public class District {
 	@PrimaryKeyColumn(name = "districtName", type = PrimaryKeyType.CLUSTERED, ordering = Ordering.ASCENDING)
 	private String districtName;
 
+
+
 }
 
